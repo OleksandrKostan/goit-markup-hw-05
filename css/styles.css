@@ -92,6 +92,8 @@ img {
   padding-bottom: 32px;
   display: block;
   position: relative;
+
+  transition: color 250ms var(--primary-cubic);
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -129,6 +131,8 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   align-items: center;
+
+  transition: color 250ms var(--primary-cubic);
 }
 .contakt a:hover,
 .contakt a:focus {
@@ -188,6 +192,7 @@ img {
   min-height: 50px;
   padding: 10px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms var(--primary-cubic);
 }
 .button.primary:hover {
   background-color: #188ce8;
@@ -203,6 +208,7 @@ img {
   padding: 6px 22px;
   border: 1px solid transparent;
   margin-bottom: 0;
+  transition: background-color 250ms var(--primary-cubic);
 }
 
 .button.secondary:hover,
@@ -349,6 +355,9 @@ img {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
+
+  transition: fill 250ms var(--primary-cubic),
+    background-color 250ms var(--primary-cubic);
 }
 .social-item {
   margin-right: 10px;
@@ -388,6 +397,8 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   fill: #afb1b8;
+  transition: border-color 250ms var(--primary-cubic),
+    fill 250ms var(--primary-cubic);
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -418,12 +429,14 @@ img {
   color: var(--primary-white-color);
   font-style: normal;
   line-height: 1.71;
+  transition: color 250ms var(--primary-cubic);
 }
 
 .address .contact {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 1.71;
+  transition: color 250ms var(--primary-cubic);
 }
 .address .contact:hover,
 .address .contact:focus {
@@ -455,6 +468,7 @@ img {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   fill: var(--primary-white-color);
+  transition: background-color 250ms var(--primary-cubic);
 }
 .join .social-link:hover,
 .join .social-link:focus {
@@ -496,6 +510,8 @@ img {
   margin: -15px -15px;
 }
 .flex-element {
+  transition: box-shadow 250ms var(--primary-cubic);
+
   flex-basis: calc((100% - 90px) / 3);
   margin: 15px 15px;
 }
